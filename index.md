@@ -1,8 +1,12 @@
-## 博客
+## 域名申请
 
-You can use the [editor on GitHub](https://github.com/luguo92/Doit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### 可选择的域名供应商
+1. 阿里云:[https://www.aliyun.com/]
+2. 腾讯云:[https://cloud.tencent.com/]
+3. 其他
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```markdown
+以下以腾讯云为例简单介绍下申请的流程
 
 ### Markdown
 
