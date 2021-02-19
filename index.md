@@ -5,19 +5,14 @@
 2. 腾讯云:[https://cloud.tencent.com/]
 3. 其他
 
-```markdown
-以下以腾讯云为例简单介绍下申请的流程
+#### 以下以腾讯云为例简单介绍下申请的流程, 写于20210219
 
-### Markdown
+### 挑选域名
+1. 可参考全域名的价格列表,进行挑选[https://buy.cloud.tencent.com/domain?price=1]
+不同的域名价格差异很大,这里本人选取了目前最便宜的域名之一"fun"(10年价格178元)
+2. 点击立即购买，进入域名查询页面，查询你想注册的域名是否有被占用，以及其实际价格
+3. 注意一些具有特殊含义的域名价格非常高, 比如"qq.fun" 其价格是(80753元/首年)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
@@ -28,7 +23,6 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
