@@ -12,24 +12,33 @@
 不同的域名价格差异很大,这里本人选取了目前最便宜的域名之一"fun"(10年价格178元)
 2. 点击立即购买，进入域名查询页面，查询你想注册的域名是否有被占用，以及其实际价格
 3. 注意一些具有特殊含义的域名价格非常高, 比如"qq.fun" 其价格是(80753元/首年)
+4. 这里我选取了域名[mrfun.fun],以此为例进行后续的介绍
 
+### 注册&购买
+1. 实名认证
+2. 买它(可以勾选免费的SSL 证书服务)
+3. 等待域名生效
 
-- Bulleted
-- List
+### 配置域名解析 
+[https://console.dnspod.cn/dns/mrfun.fun/record?source=cloud]
+1. 新增一条解析配置
+  - 为SSL证书配置, 取值参照 《SSL证书配置里的值》 其中域名前缀选择 "_dnsauth", 类型 "TXT"， 值为"你自己的实际值"
+3. 新增子域名配置
+  - [mrfun.fun] 主域名， 域名前缀选择 "@", 配置类型按需选择，再配置上对应的值一般 A-> 外网IP， CNAME-> 待关联域名， 更详细的类型及取值下面我单独列出来
+  - [www.mrfun.fun] 二级域名， 域名前缀选择 "www", 配置类型按需选择，再配置上对应的值一般 A-> 外网IP， CNAME-> 待关联域名
+  - [blog.mrfun.fun] 二级域名， 域名前缀自定义字符串如"blog", 配置类型按需选择，再配置上对应的值一般 A-> 外网IP， CNAME-> 待关联域名
 
-1. Numbered
-2. List
+### SSL证书配置
+[https://console.cloud.tencent.com/ssl]
+1. 选择申请免费ssl证书
+2. 正确填写个人及域名资料
+3. 选择验证方式，自动dns验证
+4. 在《配置域名解析 》第一条中配置ssl相关域名解析参数
+5. 等待审核结果即可
 
-**Bold** and _Italic_ and `Code` text
+### 我的域名
+[https://console.cloud.tencent.com/domain]
+这里可以查看域名的详细信息
 
-[Link](url) and ![Image](src)
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/luguo92/Doit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 官方文档
+[https://cloud.tencent.com/document/product/242]
